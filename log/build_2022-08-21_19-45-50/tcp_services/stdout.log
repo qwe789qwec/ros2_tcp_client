@@ -1,0 +1,20 @@
+[ 50%] Built target client
+[100%] Built target server
+-- Install configuration: ""
+-- Up-to-date: /home/arc/Documents/ros2_tcp_client/install/tcp_services/lib/tcp_services/server
+-- Up-to-date: /home/arc/Documents/ros2_tcp_client/install/tcp_services/lib/tcp_services/client
+-- Up-to-date: /home/arc/Documents/ros2_tcp_client/install/tcp_services/share/ament_index/resource_index/package_run_dependencies/tcp_services
+-- Up-to-date: /home/arc/Documents/ros2_tcp_client/install/tcp_services/share/ament_index/resource_index/parent_prefix_path/tcp_services
+-- Up-to-date: /home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/environment/ament_prefix_path.sh
+-- Up-to-date: /home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/environment/path.sh
+-- Up-to-date: /home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/environment/path.dsv
+-- Up-to-date: /home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/local_setup.bash
+-- Up-to-date: /home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/local_setup.sh
+-- Up-to-date: /home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/local_setup.zsh
+-- Up-to-date: /home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/local_setup.dsv
+-- Installing: /home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/package.dsv
+-- Up-to-date: /home/arc/Documents/ros2_tcp_client/install/tcp_services/share/ament_index/resource_index/packages/tcp_services
+-- Up-to-date: /home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/cmake/tcp_servicesConfig.cmake
+-- Up-to-date: /home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/cmake/tcp_servicesConfig-version.cmake
+-- Up-to-date: /home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/package.xml

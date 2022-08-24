@@ -1,0 +1,17 @@
+/home/arc/Documents/ros2_tcp_client/install/tcp_services/lib/tcp_services/server
+/home/arc/Documents/ros2_tcp_client/install/tcp_services/lib/tcp_services/client
+/home/arc/Documents/ros2_tcp_client/install/tcp_services/share/ament_index/resource_index/package_run_dependencies/tcp_services
+/home/arc/Documents/ros2_tcp_client/install/tcp_services/share/ament_index/resource_index/parent_prefix_path/tcp_services
+/home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/environment/ament_prefix_path.sh
+/home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/environment/ament_prefix_path.dsv
+/home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/environment/path.sh
+/home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/environment/path.dsv
+/home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/local_setup.bash
+/home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/local_setup.sh
+/home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/local_setup.zsh
+/home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/local_setup.dsv
+/home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/package.dsv
+/home/arc/Documents/ros2_tcp_client/install/tcp_services/share/ament_index/resource_index/packages/tcp_services
+/home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/cmake/tcp_servicesConfig.cmake
+/home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/cmake/tcp_servicesConfig-version.cmake
+/home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/package.xml

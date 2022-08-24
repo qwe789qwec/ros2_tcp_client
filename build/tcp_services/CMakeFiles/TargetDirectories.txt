@@ -1,0 +1,11 @@
+/home/arc/Documents/ros2_tcp_client/build/tcp_services/CMakeFiles/install/strip.dir
+/home/arc/Documents/ros2_tcp_client/build/tcp_services/CMakeFiles/install.dir
+/home/arc/Documents/ros2_tcp_client/build/tcp_services/CMakeFiles/list_install_components.dir
+/home/arc/Documents/ros2_tcp_client/build/tcp_services/CMakeFiles/rebuild_cache.dir
+/home/arc/Documents/ros2_tcp_client/build/tcp_services/CMakeFiles/edit_cache.dir
+/home/arc/Documents/ros2_tcp_client/build/tcp_services/CMakeFiles/test.dir
+/home/arc/Documents/ros2_tcp_client/build/tcp_services/CMakeFiles/client.dir
+/home/arc/Documents/ros2_tcp_client/build/tcp_services/CMakeFiles/install/local.dir
+/home/arc/Documents/ros2_tcp_client/build/tcp_services/CMakeFiles/server.dir
+/home/arc/Documents/ros2_tcp_client/build/tcp_services/CMakeFiles/tcp_services_uninstall.dir
+/home/arc/Documents/ros2_tcp_client/build/tcp_services/CMakeFiles/uninstall.dir

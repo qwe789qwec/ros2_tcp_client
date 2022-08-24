@@ -1,0 +1,13 @@
+[0.008s] Invoking command in '/home/arc/Documents/ros2_tcp_client/build/tcp_services': CMAKE_PREFIX_PATH=/home/arc/Documents/ros2_tcp_client/install/tcp_format:/home/arc/Documents/ros2_tcp_client/install/tcp_services:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/arc/Documents/ros2_tcp_client/build/tcp_services -- -j16 -l16
+[0.034s] [35m[1mScanning dependencies of target server[0m
+[0.046s] [ 50%] Built target client
+[0.051s] [ 75%] [32mBuilding CXX object CMakeFiles/server.dir/src/tcp_client.cpp.o[0m
+[0.906s] [01m[K/home/arc/Documents/ros2_tcp_client/src/tcp_services/src/tcp_client.cpp:[m[K In function ‘[01m[Kstd::string send_socket(std::string, std::string, char*)[m[K’:
+[0.906s] [01m[K/home/arc/Documents/ros2_tcp_client/src/tcp_services/src/tcp_client.cpp:52:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kprint[m[K’ was not declared in this scope; did you mean ‘[01m[Kprintf[m[K’?
+[0.907s]    52 |   [01;31m[Kprint[m[K("clientfd:%d", clientfd);
+[0.907s]       |   [01;31m[K^~~~~[m[K
+[0.907s]       |   [32m[Kprintf[m[K
+[1.223s] make[2]: *** [CMakeFiles/server.dir/build.make:63: CMakeFiles/server.dir/src/tcp_client.cpp.o] Error 1
+[1.223s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/server.dir/all] Error 2
+[1.223s] make: *** [Makefile:141: all] Error 2
+[1.225s] Invoked command in '/home/arc/Documents/ros2_tcp_client/build/tcp_services' returned '2': CMAKE_PREFIX_PATH=/home/arc/Documents/ros2_tcp_client/install/tcp_format:/home/arc/Documents/ros2_tcp_client/install/tcp_services:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/arc/Documents/ros2_tcp_client/build/tcp_services -- -j16 -l16

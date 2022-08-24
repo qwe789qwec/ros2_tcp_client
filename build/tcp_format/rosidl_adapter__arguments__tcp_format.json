@@ -1,0 +1,6 @@
+{
+  "package_name": "tcp_format",
+  "non_idl_tuples": [
+    "/home/arc/Documents/ros2_tcp_client/src/tcp_format:srv/SocketFormat.srv"
+  ]
+}

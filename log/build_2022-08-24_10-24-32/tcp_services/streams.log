@@ -1,0 +1,32 @@
+[0.011s] Invoking command in '/home/arc/Documents/ros2_tcp_client/build/tcp_services': CMAKE_PREFIX_PATH=/home/arc/Documents/ros2_tcp_client/install/tcp_format:/home/arc/Documents/ros2_tcp_client/install/tcp_services:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/arc/Documents/ros2_tcp_client/build/tcp_services -- -j16 -l16
+[0.037s] [35m[1mScanning dependencies of target client[0m
+[0.037s] [35m[1mScanning dependencies of target server[0m
+[0.054s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/message_test.cpp.o[0m
+[0.054s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/tcp_client.cpp.o[0m
+[1.484s] [ 75%] [32m[1mLinking CXX executable server[0m
+[1.565s] [ 75%] Built target server
+[1.809s] [100%] [32m[1mLinking CXX executable client[0m
+[1.895s] [100%] Built target client
+[1.904s] Invoked command in '/home/arc/Documents/ros2_tcp_client/build/tcp_services' returned '0': CMAKE_PREFIX_PATH=/home/arc/Documents/ros2_tcp_client/install/tcp_format:/home/arc/Documents/ros2_tcp_client/install/tcp_services:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/arc/Documents/ros2_tcp_client/build/tcp_services -- -j16 -l16
+[1.920s] Invoking command in '/home/arc/Documents/ros2_tcp_client/build/tcp_services': CMAKE_PREFIX_PATH=/home/arc/Documents/ros2_tcp_client/install/tcp_format:/home/arc/Documents/ros2_tcp_client/install/tcp_services:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/arc/Documents/ros2_tcp_client/build/tcp_services
+[1.925s] -- Install configuration: ""
+[1.926s] -- Installing: /home/arc/Documents/ros2_tcp_client/install/tcp_services/lib/tcp_services/server
+[1.926s] -- Set runtime path of "/home/arc/Documents/ros2_tcp_client/install/tcp_services/lib/tcp_services/server" to ""
+[1.926s] -- Installing: /home/arc/Documents/ros2_tcp_client/install/tcp_services/lib/tcp_services/client
+[1.927s] -- Set runtime path of "/home/arc/Documents/ros2_tcp_client/install/tcp_services/lib/tcp_services/client" to ""
+[1.927s] -- Up-to-date: /home/arc/Documents/ros2_tcp_client/install/tcp_services/share/ament_index/resource_index/package_run_dependencies/tcp_services
+[1.927s] -- Up-to-date: /home/arc/Documents/ros2_tcp_client/install/tcp_services/share/ament_index/resource_index/parent_prefix_path/tcp_services
+[1.927s] -- Up-to-date: /home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/environment/ament_prefix_path.sh
+[1.927s] -- Up-to-date: /home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/environment/ament_prefix_path.dsv
+[1.927s] -- Up-to-date: /home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/environment/path.sh
+[1.927s] -- Up-to-date: /home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/environment/path.dsv
+[1.927s] -- Up-to-date: /home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/local_setup.bash
+[1.927s] -- Up-to-date: /home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/local_setup.sh
+[1.927s] -- Up-to-date: /home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/local_setup.zsh
+[1.927s] -- Up-to-date: /home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/local_setup.dsv
+[1.928s] -- Installing: /home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/package.dsv
+[1.928s] -- Up-to-date: /home/arc/Documents/ros2_tcp_client/install/tcp_services/share/ament_index/resource_index/packages/tcp_services
+[1.928s] -- Up-to-date: /home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/cmake/tcp_servicesConfig.cmake
+[1.928s] -- Up-to-date: /home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/cmake/tcp_servicesConfig-version.cmake
+[1.928s] -- Up-to-date: /home/arc/Documents/ros2_tcp_client/install/tcp_services/share/tcp_services/package.xml
+[1.929s] Invoked command in '/home/arc/Documents/ros2_tcp_client/build/tcp_services' returned '0': CMAKE_PREFIX_PATH=/home/arc/Documents/ros2_tcp_client/install/tcp_format:/home/arc/Documents/ros2_tcp_client/install/tcp_services:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/arc/Documents/ros2_tcp_client/build/tcp_services

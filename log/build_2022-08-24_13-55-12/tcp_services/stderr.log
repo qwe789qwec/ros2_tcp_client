@@ -1,0 +1,28 @@
+[01m[K/home/arc/Documents/ros2_tcp_client/src/tcp_services/src/tcp_client.cpp:[m[K In function ‘[01m[Kstd::string send_socket(std::string, std::string, std::string)[m[K’:
+[01m[K/home/arc/Documents/ros2_tcp_client/src/tcp_services/src/tcp_client.cpp:74:11:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kchar*[m[K’
+   74 |    strcpy([01;31m[Kmessage[m[K, buffer);
+      |           [01;31m[K^~~~~~~[m[K
+      |           [01;31m[K|[m[K
+      |           [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+In file included from [01m[K/opt/ros/foxy/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rcutils/logging.h:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rcl/types.h:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rcl/arguments.h:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rcl/context.h:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rcl/guard_condition.h:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:29[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/arc/Documents/ros2_tcp_client/src/tcp_services/src/tcp_client.cpp:1[m[K:
+[01m[K/usr/include/string.h:122:39:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kchar* strcpy(char*, const char*)[m[K’
+  122 | extern char *strcpy ([01;36m[Kchar *__restrict __dest[m[K, const char *__restrict __src)
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/arc/Documents/ros2_tcp_client/src/tcp_services/src/tcp_client.cpp:[m[K In function ‘[01m[Kvoid showinfo(std::shared_ptr<tcp_format::srv::SocketFormat_Request_<std::allocator<void> > >, std::shared_ptr<tcp_format::srv::SocketFormat_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/arc/Documents/ros2_tcp_client/src/tcp_services/src/tcp_client.cpp:112:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage2char[m[K’ was not declared in this scope
+  112 |  response->receive_message = [01;31m[Kmessage2char[m[K;
+      |                              [01;31m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/server.dir/build.make:63: CMakeFiles/server.dir/src/tcp_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/server.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

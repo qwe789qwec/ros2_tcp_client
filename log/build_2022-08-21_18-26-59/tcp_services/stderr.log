@@ -1,0 +1,4 @@
+[01m[K/home/arc/Documents/ros2_tcp_client/src/tcp_services/src/tcp_client.cpp:[m[K In function ‘[01m[Kstd::string send_socket(std::string, std::string, char*)[m[K’:
+[01m[K/home/arc/Documents/ros2_tcp_client/src/tcp_services/src/tcp_client.cpp:15:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kip[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   15 | std::string send_socket([01;35m[Kstd::string ip[m[K, std::string port, char message[])
+      |                         [01;35m[K~~~~~~~~~~~~^~[m[K
