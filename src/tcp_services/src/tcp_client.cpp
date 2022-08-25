@@ -25,27 +25,20 @@ std::string send_socket(std::string ip, std::string port, char* message)
 	// select(sock_fd+1, &readfds, NULL, NULL, &timeout);
 
 	// int sock_fd = socket(AF_INET, SOCK_STREAM | SOCK_NONBLOCK, IPPROTO_TCP);
-	int sock_fd = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+	int sock_fd = socket(AF_INET, SOCK_STREAM, 0);
 	if (sock_fd < 0) {
 		return "\n can't creat Socket\n";
 	}
 
 	struct sockaddr_in serv_addr;
-	memset (&serv_addr, 0, sizeof (serv_addr)) ; // 清空,將資料設為 0
-	// serv_addr.sin_addr.s_addr = inet_addr(ip.c_str());
 	serv_addr.sin_family = AF_INET;
 	serv_addr.sin_port = htons(std::stoi(port));
-	// serv_addr.sin_addr.s_addr = INADDR_ANY;
-	// serv_addr.sin_addr.s_addr = inet_addr( "127.0.0.1" );
-
-	// Convert IPv4 and IPv6 addresses from text to binary
-	// form
 	if (inet_pton(AF_INET, ip.c_str(), &serv_addr.sin_addr)<= 0) {
 		return "\nInvalid address/ Address not supported.\n";
 	}
 
-	int connectfd = connect(sock_fd, (struct sockaddr*)&serv_addr, sizeof(serv_addr));
-	if (connectfd < 0) {
+	int connect_fd = connect(sock_fd, (struct sockaddr*)&serv_addr, sizeof(serv_addr));
+	if (connect_fd < 0) {
 		close(sock_fd);
         return "\nConnection Failed.\n";
     }
@@ -56,13 +49,13 @@ std::string send_socket(std::string ip, std::string port, char* message)
     int newSocketFlag = oldSocketFlag | O_NONBLOCK;
     if (fcntl(sock_fd, F_SETFL,  newSocketFlag) == -1) {
         close(sock_fd);
-        return "set socket to nonblock error.";
+        return "\nset socket to nonblock error.\n";
     }
 
 	int errorTimes = 0;
 	int strlen = 0;
 	char buffer[1024];
-	while(1){
+	while(1) {
         strlen = read(sock_fd, buffer, sizeof(buffer));
 		if (strlen > 0){
 			printf("read len: %d\n", strlen);
@@ -77,8 +70,8 @@ std::string send_socket(std::string ip, std::string port, char* message)
 			sleep(3);
 			errorTimes++;
 			if(errorTimes >= 3){
-				close(connectfd);
-				return "timeout\n";
+				close(sock_fd);
+				return "\ntime out\n";
 			}
 			else{
 				printf("recv failed\n");
@@ -87,7 +80,7 @@ std::string send_socket(std::string ip, std::string port, char* message)
     }
 
 	// closing the connected socket
-	close(connectfd);
+	close(sock_fd);
 	return "\nmessage sent close connect\n";
 }
 
